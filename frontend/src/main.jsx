@@ -22,7 +22,9 @@ import {
 } from '@rainbow-me/rainbowkit/wallets';
 
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
-import { OasisSapphireTestnet, OasisSapphireMainnet } from './Chain.tsx'
+import { OasisSapphireTestnet} from './Chain.tsx'
+import { OasisSapphireMainnet } from './Chain2.tsx'
+
 import { publicProvider } from 'wagmi/providers/public';
 
 const projectId = "274de4271228fdd69013c56274f0e688";
