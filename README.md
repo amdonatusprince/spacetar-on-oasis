@@ -21,7 +21,7 @@ To explore and interact with the Spacetar decentralized application (dApp) on yo
 2. Install Dependencies
 * Navigate to the cloned repository's directory:
 ```
-cd spacetar-on-opBNB
+cd spacetar-on-oasis
 ```
 * Install the required Node.js packages by running:
 ```
@@ -31,8 +31,7 @@ npm install
 * Create a file named .env in the root directory of the project.
 * Open the .env file and add the following variables:
 ```
-VITE_OPBNB_PROJECT_ID=YOUR_PROJECT_ID
-VITE_OPBNB_CONTRACT=YOUR_CONTRACT_ADDRESS
+VITE_CONTRACT=YOUR_CONTRACT_ADDRESS
 ```
 Replace YOUR_PROJECT_ID with your project ID and YOUR_CONTRACT_ADDRESS with the deployed contract address.
 
@@ -44,7 +43,7 @@ Your default web browser should automatically open and display the Spacetar dApp
 Now you can explore the various features of the Spacetar dApp locally, including joining Help Rooms, earning reward tokens, contributing to the community, and experiencing a transformative journey towards improved mental well-being.
 
 ## Using Spacetar on the Live Website
-To access and use the Spacetar decentralized application on the live website, simply visit https://spacestar-on-opbnb.vercel.app/.
+To access and use the Spacetar decentralized application on the live website, simply visit https://spacestar-on-oasis.vercel.app/.
 Here, you can seamlessly engage with all the empowering features that Spacetar has to offer. Join Help Rooms, earn reward tokens, contribute to the community, and embark on a meaningful journey towards enhanced mental well-being.
 
 
