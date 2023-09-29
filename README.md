@@ -42,7 +42,8 @@ Your default web browser should automatically open and display the Spacetar dApp
 Now you can explore the various features of the Spacetar dApp locally, including joining Help Rooms, earning reward tokens, contributing to the community, and experiencing a transformative journey towards improved mental well-being.
 
 ## Using Spacetar on the Live Website
-To access and use the Spacetar decentralized application on the live website, simply visit https://spacestar-on-oasis.vercel.app/.
+To access and use the Spacetar decentralized application on the live website, simply visit
+https://spacetar-on-oasis.vercel.app/.
 Here, you can seamlessly engage with all the empowering features that Spacetar has to offer. Join Help Rooms, earn reward tokens, contribute to the community, and embark on a meaningful journey towards enhanced mental well-being.
 
 ## What's next for Spacetar
@@ -59,7 +60,7 @@ Spacetar represents more than a decentralized application; it's a movement. In t
 Join us in this transformative journey as we empower mental well-being, one connection and story at a time. Your voice matters, and Spacetar is here to amplify it.
 
 ## Useful Resources
-- Link to Deployed Website: https://spacetar-on-oasis.vercel.app
+- Link to Deployed Website: https://spacetar-on-oasis.vercel.app/
 - Contract Address (0x4838854e5150e4345fb4ae837e9fcca40d51f3fe)
-- Link to Verified Contract Address on opBNB Testnet: https://opbnbscan.com/address/0x4838854e5150E4345Fb4Ae837E9FcCa40D51F3Fe?p=1&tab=Contract
+- Link to Verified Contract Address on oasis Testnet: https://opbnbscan.com/address/0x4838854e5150E4345Fb4Ae837E9FcCa40D51F3Fe?p=1&tab=Contract
 - Link to Spacetar DEMO Video: https://youtu.be/UPXRyQnyCd4
