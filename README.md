@@ -62,5 +62,5 @@ Join us in this transformative journey as we empower mental well-being, one conn
 ## Useful Resources
 - Link to Deployed Website: https://spacetar-on-oasis.vercel.app/
 - Contract Address (0x4838854e5150e4345fb4ae837e9fcca40d51f3fe)
-- Link to Verified Contract Address on oasis Testnet: https://opbnbscan.com/address/0x4838854e5150E4345Fb4Ae837E9FcCa40D51F3Fe?p=1&tab=Contract
+- Link to Verified Contract Address on Sapphire Testnet: https://opbnbscan.com/address/0x4838854e5150E4345Fb4Ae837E9FcCa40D51F3Fe?p=1&tab=Contract
 - Link to Spacetar DEMO Video: https://youtu.be/UPXRyQnyCd4
