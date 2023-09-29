@@ -22,16 +22,12 @@ import {
 } from '@rainbow-me/rainbowkit/wallets';
 
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
-import { opBNBMainnet, opBNBTestnet } from './Chain.tsx'
-import {
-  baseGoerli, base
-} from 'wagmi/chains';
-
+import { OasisSapphireTestnet, OasisSapphireMainnet } from './Chain.tsx'
 import { publicProvider } from 'wagmi/providers/public';
 
-const projectId = import.meta.env.VITE_OPBNB_PROJECT_ID;
+const projectId = "274de4271228fdd69013c56274f0e688";
 const { chains, publicClient } = configureChains(
-  [opBNBMainnet, opBNBTestnet],
+  [OasisSapphireTestnet, OasisSapphireMainnet],
   [
     publicProvider()
   ]

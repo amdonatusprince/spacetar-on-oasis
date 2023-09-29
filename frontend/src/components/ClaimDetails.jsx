@@ -10,7 +10,7 @@ const ClaimDetails = () => {
     const { address } = useAccount();
 
     const { data } = useContractRead({
-        address: import.meta.env.VITE_OPBNB_CONTRACT,
+        address: import.meta.env.VITE_CONTRACT,
         abi: ContractABI,
         functionName: 'userPoints',
         args: [address],

@@ -143,7 +143,7 @@ contract SpacetarContract is AccessControl {
         });
     }
 
-    // Function for admins to mark a reported message as spam
+    // // Function for admins to mark a reported message as spam
     function markAsSpam(uint256 messageId) public onlyRole(ADMIN_ROLE) {
         require(isMessageValid(messageId), "Invalid message ID.");
         require(!reportedMessages[messageId].confirmedSpam, "Already confirmed as spam.");
@@ -246,7 +246,7 @@ contract SpacetarContract is AccessControl {
         return downvoteCounts[messageId];
     }
 
-    // Function to slash a percentage of a user's point balance
+    // // Function to slash a percentage of a user's point balance
     function slashUserPoints(address userAddress, uint256 slashRatio) public onlyRole(ADMIN_ROLE) {
         
         require(slashRatio > 0 && slashRatio <= 100, "Invalid slash ratio."); // Ensure the slash ratio is valid
@@ -333,50 +333,13 @@ contract SpacetarContract is AccessControl {
         return spaceMessages;
     }
 
-    // Function to get user stats for a specified number of days
-    function getUsers(uint256 filterDays) public view onlyRole(ADMIN_ROLE) returns (UserInfo[] memory) {
-        UserInfo[] memory usersInfo = new UserInfo[](spacetarChats.length);
-        uint256 currentIndex;
-
-        for (uint256 i = 0; i < spacetarChats.length; i++) {
-            if (block.timestamp - spacetarChats[i].timestamp <= filterDays * 1 days) {
-                address currentUser = spacetarChats[i].user;
-                bool userExists = false;
-
-                for (uint256 j = 0; j < currentIndex; j++) {
-                    if (usersInfo[j].user == currentUser) {
-                        usersInfo[j].messagesSent++;
-                        userExists = true;
-                        break;
-                    }
-                }
-
-                if (!userExists) {
-                    usersInfo[currentIndex] = UserInfo({
-                        user: currentUser,
-                        messagesSent: 1,
-                        pointBalance: userPoints[currentUser]
-                    });
-                    currentIndex++;
-                }
-            }
-        }
-
-        UserInfo[] memory filteredUsers = new UserInfo[](currentIndex);
-        for (uint256 i = 0; i < currentIndex; i++) {
-            filteredUsers[i] = usersInfo[i];
-        }
-
-        return filteredUsers;
-    }
-
     // Function to reward a user with a specified number of points
     function rewardUser(address userAddress, uint256 points) public onlyRole(ADMIN_ROLE){
         userPoints[userAddress] += points;
         emit PointsEarned(userAddress, points);
     }
 
-    // Function to get the total point balance of all users
+    // // Function to get the total point balance of all users
     function getTotalPointBalance() public view onlyRole(ADMIN_ROLE) returns (uint256) {
         uint256 totalBalance = 0;
         for (uint256 i = 0; i < spacetarChats.length; i++) {
@@ -386,7 +349,7 @@ contract SpacetarContract is AccessControl {
     }
 
     // Function to get the total point balance of all users within a filtered number of days
-    function getTotalPointBalanceFiltered(uint256 filterDays) public view onlyRole(ADMIN_ROLE) returns (uint256) {
+    function getTotalPointBalanceFiltered(uint256 filterDays) public view returns (uint256) {
         uint256 totalBalance = 0;
         uint256 currentTime = block.timestamp;
         

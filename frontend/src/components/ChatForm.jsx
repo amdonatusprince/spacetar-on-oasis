@@ -37,7 +37,7 @@ const ChatForm = () => {
   const [chatMessage, setChatMessage] = useState("");
 
   const { config } = usePrepareContractWrite({
-    address: import.meta.env.VITE_OPBNB_CONTRACT,
+    address: import.meta.env.VITE_CONTRACT,
     abi: ContractABI,
     functionName: "sendGroupChatMessage",
     args: [chatMessage, currentRoom?.name],

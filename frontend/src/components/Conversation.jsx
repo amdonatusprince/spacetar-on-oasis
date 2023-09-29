@@ -117,7 +117,7 @@ const Conversation = () => {
   const groupName = currentRoom?.name;
 
   const { data, isError, isLoading, refetch } = useContractRead({
-    address: import.meta.env.VITE_OPBNB_CONTRACT,
+    address: import.meta.env.VITE_CONTRACT,
     abi: ContractABI,
     functionName: 'getGroupChats',
     args: groupName ? [groupName] : [], 
