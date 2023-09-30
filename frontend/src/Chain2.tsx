@@ -1,7 +1,7 @@
 import { Chain } from 'wagmi'
 
 export const OasisSapphireMainnet = {
-    id: 23295,
+    id: 23294,
     name: 'Oasis Sapphire Mainnet',
     network: 'Oasis Sapphire Mainnet',
     nativeCurrency: {
