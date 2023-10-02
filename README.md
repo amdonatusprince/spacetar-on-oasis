@@ -55,7 +55,9 @@ Spacetar represents more than a decentralized application; it's a movement. In t
 
 * **Decentralized Exchange**: We would be working to integrate DEX into spacetar so that users can be able to swap their reward tokens, stake their tokens, or gift reward tokens to other community members.
 
-* **Research and Innovation:** Currently the '@oasisprotocol/sapphire-paratime'; only supports ethers so we would need to integrate support for views as we scale Spacetar
+* **Research and Innovation:** Currently the '@oasisprotocol/sapphire-paratime'; only supports ethers so we would need to integrate support for views as we scale Spacetar.
+  
+* **AI Chatbot:** We are also working on leveraging OpenAI GPT-4 to integrate an AI chatbot assistance that will help the users to navigate through the dApp as we expand out features.
 
 * **Annoymous Transfers:** We are also working on integrating stealth address to users can receive crypto without revealing their wallet address which is tehir identity on the blockchain
 
