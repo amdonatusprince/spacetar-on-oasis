@@ -21,7 +21,7 @@ const Grow = () => {
               Share Your Story with <span>Spacestar</span>
             </h1>
             <p>
-              A safe haven where you can freely share your thoughts, emotions, and experiences,
+              Earn token rewards and incentive sharing your thoughts, emotions, and experiences,
               knowing that you are not alone.
             </p>
           </div>
