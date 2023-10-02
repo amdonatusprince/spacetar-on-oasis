@@ -10,7 +10,6 @@ import {
   RainbowKitProvider,
   lightTheme
 } from '@rainbow-me/rainbowkit';
-import { ethers } from "ethers";
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
 import * as sapphire from '@oasisprotocol/sapphire-paratime';
 import {
