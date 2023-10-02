@@ -24,7 +24,7 @@ To explore and interact with the Spacetar decentralized application (dApp) on yo
 2. Install Dependencies
 * Navigate to the cloned repository's directory:
 ```
-cd spacetar-on-oasis
+cd spacetar-on-oasis/frontend
 ```
 * Install the required Node.js packages by running:
 ```
