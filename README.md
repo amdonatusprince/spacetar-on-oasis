@@ -1,6 +1,8 @@
 # Spacetar 
 
-### A SocialFI forum dApp that allows users to earn reward tokens by actively participating and engaging in the community
+Spacetar is a SocialFi forum dApp on Sapphire, that allows users to earn reward tokens by actively participating and engaging in the community. User's earned rewards can be swapped for any erc20 tokens on Sapphire and also rewards can be staked and locked to earn more interest and incentives.
+
+We built Spacetar using `Solidity` for the contract creation, `Hardhat` for the contract deployment, `Oasis Sapphire Hardhat` in our config file to initialize encryption of our contract, `Javascript` and `Typescript` for building out the frontend architecture, then `Wagmi` and `Rainbowkit` was used for the frontend integration
 
 ![Spacetar Homepage](https://github.com/amdonatusprince/spacetar-on-oasis/blob/main/frontend/src/assets/homepage.png)
 
@@ -49,17 +51,17 @@ https://spacetar-on-oasis.vercel.app/.
 Here, you can seamlessly engage with all the empowering features that Spacetar has to offer. Join Help Rooms, earn reward tokens, contribute to the community, and embark on a meaningful journey towards enhanced mental well-being.
 
 ## What's next for Spacetar
-Spacetar represents more than a decentralized application; it's a movement. In the future, we envision further enhancing the platform:
+Spacetar represents more than a socialFI decentralized application; it's a movement. In the future, we envision further enhancing the platform:
 
 * **Expanded Features:** Our smart contract still has a lot of features that we'll continuously refine and expand on based on user feedback and evolving needs, ensuring it remains a cutting-edge and responsive platform. Also, we would be building out an admin section of the dApp so as to moderate things as the community grows.
 
-* **Decentralized Exchange**: We would be working to integrate DEX into spacetar so that users can be able to swap their reward tokens, stake their tokens, or gift reward tokens to other community members.
+* **Decentralized Exchange**: We would be working to integrate DEX into Spacetar so that users can be able to swap their reward tokens, stake their tokens, or gift reward tokens to other community members.
 
 * **Research and Innovation:** Currently the '@oasisprotocol/sapphire-paratime'; only supports ethers so we would need to integrate support for views as we scale Spacetar.
   
-* **AI Chatbot:** We are also working on leveraging OpenAI GPT-4 to integrate an AI chatbot assistance that will help the users to navigate through the dApp as we expand out features.
+* **AI Chatbot:** We are also working on leveraging OpenAI GPT-4 to integrate an AI chatbot assistance that will help the users navigate through the dApp as we expand our features.
 
-* **Annoymous Transfers:** We are also working on integrating stealth address to users can receive crypto without revealing their wallet address which is tehir identity on the blockchain
+* **Anonymous Transfers:** We are also working on integrating stealth addresses so users can receive crypto without revealing their wallet address which is their identity on the blockchain.
 
 This feature is heavily inspired by [Vitalik's article on stealth addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html)
 
