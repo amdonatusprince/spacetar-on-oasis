@@ -1,6 +1,6 @@
-# Spacetar - an accessible, incentive-driven, decentralized social forum powered by community engagement
+# Spacetar 
 
-Earn reward tokens by actively participating and engaging
+### A SocialFI forum dApp that allows users to earn reward tokens by actively participating and engaging in the community
 
 ![Spacetar Homepage](https://github.com/amdonatusprince/spacetar-on-opBNB/blob/main/src/assets/homepage.png)
 
@@ -53,16 +53,18 @@ Spacetar represents more than a decentralized application; it's a movement. In t
 
 * **Expanded Features:** Our smart contract still has a lot of features that we'll continuously refine and expand on based on user feedback and evolving needs, ensuring it remains a cutting-edge and responsive platform. Also, we would be building out an admin section of the dApp so as to moderate things as the community grows.
 
-* **Partnerships and Outreach**: Collaborating with mental health organizations, professionals, and advocates will amplify our impact and reach, creating a global network of support.
+* **Decentralized Exchange**: We would be working to integrate DEX into spacetar so that users can be able to swap their reward tokens, stake their tokens, or gift reward tokens to other community members.
 
-* **Research and Innovation:** We're committed to advancing research in the intersection of technology and mental health, harnessing data insights to improve well-being outcomes.
+* **Research and Innovation:** Currently the '@oasisprotocol/sapphire-paratime'; only supports ethers so we would need to integrate support for views as we scale Spacetar
 
-* **User-Centric Evolution:** Our journey will be guided by the needs and aspirations of the Spacetar community, ensuring that the platform remains a dynamic and transformative force.
+* **Annoymous Transfers:** We are also working on integrating stealth address to users can receive crypto without revealing their wallet address which is tehir identity on the blockchain
 
-Join us in this transformative journey as we empower mental well-being, one connection and story at a time. Your voice matters, and Spacetar is here to amplify it.
+This feature is heavily inspired by [Vitalik's article on stealth addresses](https://vitalik.eth.limo/general/2023/01/20/stealth.html)
+
+
 
 ## Useful Resources
 - Link to Deployed Website: https://spacetar-on-oasis.vercel.app/
-- Contract Address (0x4838854e5150e4345fb4ae837e9fcca40d51f3fe)
-- Link to Verified Contract Address on Sapphire Testnet: https://opbnbscan.com/address/0x4838854e5150E4345Fb4Ae837E9FcCa40D51F3Fe?p=1&tab=Contract
+- Contract Address (0x1f6A37FECCB212859Cd4184BdD059b304885f8b5)
+- Link to txns on Sapphire Explorer: https://explorer.oasis.io/testnet/sapphire/address/0x1f6A37FECCB212859Cd4184BdD059b304885f8b5
 - Link to Spacetar DEMO Video: https://youtu.be/UPXRyQnyCd4
