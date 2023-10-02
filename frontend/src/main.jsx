@@ -10,8 +10,9 @@ import {
   RainbowKitProvider,
   lightTheme
 } from '@rainbow-me/rainbowkit';
-
+import { ethers } from "ethers";
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
+import * as sapphire from '@oasisprotocol/sapphire-paratime';
 import {
   metaMaskWallet,
   trustWallet,
@@ -24,16 +25,17 @@ import {
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
 import { OasisSapphireTestnet} from './Chain.tsx'
 import { OasisSapphireMainnet } from './Chain2.tsx'
-
 import { publicProvider } from 'wagmi/providers/public';
+import { createPublicClient } from 'viem'
+import { http } from 'viem'
 
 const projectId = "274de4271228fdd69013c56274f0e688";
-const { chains, publicClient } = configureChains(
+const { chains } = configureChains(
   [OasisSapphireTestnet, OasisSapphireMainnet],
   [
     publicProvider()
   ]
-);
+); 
 
 const connectors = connectorsForWallets([
   {
@@ -55,11 +57,15 @@ const connectors = connectorsForWallets([
   },
 ]);
 
-
 const wagmiConfig = createConfig({
   autoConnect: true,
   connectors,
-  publicClient
+  publicClient: sapphire.wrap(createPublicClient(
+    {
+      chain: OasisSapphireTestnet,
+      transport: http("https://testnet.sapphire.oasis.dev")
+    })
+  )
 })
 
 
