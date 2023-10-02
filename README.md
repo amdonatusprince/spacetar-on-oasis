@@ -2,7 +2,7 @@
 
 ### A SocialFI forum dApp that allows users to earn reward tokens by actively participating and engaging in the community
 
-![Spacetar Homepage](https://github.com/amdonatusprince/spacetar-on-opBNB/blob/main/src/assets/homepage.png)
+![Spacetar Homepage](https://github.com/amdonatusprince/spacetar-on-oasis/blob/main/frontend/src/assets/homepage.png)
 
 
 ## Watch the Spacetar DEMO video
