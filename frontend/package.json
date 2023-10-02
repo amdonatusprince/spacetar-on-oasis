@@ -15,6 +15,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@oasisprotocol/sapphire-contracts": "^0.2.4",
+    "@oasisprotocol/sapphire-paratime": "^1.1.1",
     "@openzeppelin/contracts": "^4.9.3",
     "@rainbow-me/rainbowkit": "^1.0.7",
     "framer-motion": "^10.15.0",
