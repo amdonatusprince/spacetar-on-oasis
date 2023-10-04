@@ -7,11 +7,6 @@ We built Spacetar using `Solidity` for the contract creation, `Hardhat` for the 
 ![Spacetar Homepage](https://github.com/amdonatusprince/spacetar-on-oasis/blob/main/frontend/src/assets/homepage.png)
 
 
-## Watch the Spacetar DEMO video
-[![Watch the video](https://img.youtube.com/vi/UPXRyQnyCd4/0.jpg)](https://youtu.be/UPXRyQnyCd4)
-
-
-
 ## How to Use
 ### Using Spacetar Locally
 To explore and interact with the Spacetar decentralized application (dApp) on your local machine, follow these steps:
@@ -71,4 +66,4 @@ This feature is heavily inspired by [Vitalik's article on stealth addresses](htt
 - Link to Deployed Website: https://spacetar-on-oasis.vercel.app/
 - Contract Address (0x1f6A37FECCB212859Cd4184BdD059b304885f8b5)
 - Link to txns on Sapphire Explorer: https://explorer.oasis.io/testnet/sapphire/address/0x1f6A37FECCB212859Cd4184BdD059b304885f8b5
-- Link to Spacetar DEMO Video: https://youtu.be/UPXRyQnyCd4
+- Link to Spacetar DEMO Video: https://youtu.be/MpsgqMmtJJ4
