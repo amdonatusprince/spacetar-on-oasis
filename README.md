@@ -48,7 +48,9 @@ Here, you can seamlessly engage with all the empowering features that Spacetar h
 ## What's next for Spacetar
 Spacetar represents more than a socialFI decentralized application; it's a movement. In the future, we envision further enhancing the platform:
 
-* **Expanded Features:** Our smart contract still has a lot of features that we'll continuously refine and expand on based on user feedback and evolving needs, ensuring it remains a cutting-edge and responsive platform. Also, we would be building out an admin section of the dApp so as to moderate things as the community grows.
+* **Expanded Features:** Our smart contract still has a lot of features that we'll continuously refine and expand on based on user feedback and evolving needs, ensuring it remains a cutting-edge and responsive platform. Also, we would be building out an admin section of the dApp so as to moderate things as the community grows and an option for users to customize their avatars.
+  
+* **Token Gated Access:** This feature will allow users to be able to create private rooms where they can share resources or have private conversations with specific people. The access will be granted by the admin based on his specified criteria.
 
 * **Decentralized Exchange**: We would be working to integrate DEX into Spacetar so that users can be able to swap their reward tokens, stake their tokens, or gift reward tokens to other community members.
 
